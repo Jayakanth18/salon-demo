@@ -50,14 +50,23 @@ export default function Testimonial() {
       <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">Testimonial</h1>
+            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+              Testimonial
+            </h1>
             <h1 className="text-4xl font-bold">What Clients Say!</h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="text-center bg-gray-50 p-8 hover:shadow-lg transition-shadow">
-                <svg className="w-12 h-12 mx-auto text-[#d4a574] mb-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+              <div
+                key={index}
+                className="text-center bg-gray-50 p-8 hover:shadow-lg transition-shadow"
+              >
+                <svg
+                  className="w-12 h-12 mx-auto text-[#d4a574] mb-4"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
                 </svg>
                 <p className="mb-6 text-gray-600 italic">
                   "{testimonial.text}"
@@ -80,12 +89,15 @@ export default function Testimonial() {
       {/* Call to Action */}
       <div className="bg-[#d4a574] py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">Ready to Experience Our Services?</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            Ready to Experience Our Services?
+          </h2>
           <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
-            Join our satisfied clients and discover why we are the best choice for your beauty needs.
+            Join our satisfied clients and discover why we are the best choice
+            for your beauty needs.
           </p>
-          <Link 
-            href="/contact" 
+          <Link
+            href="/contact"
             className="bg-white text-[#d4a574] px-8 py-4 inline-block hover:bg-gray-100 transition-colors uppercase font-semibold"
           >
             Book An Appointment
@@ -99,19 +111,27 @@ export default function Testimonial() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-5xl font-bold text-[#d4a574] mb-2">25+</div>
-              <p className="text-gray-600 uppercase font-semibold">Years Experience</p>
+              <p className="text-gray-600 uppercase font-semibold">
+                Years Experience
+              </p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-[#d4a574] mb-2">999+</div>
-              <p className="text-gray-600 uppercase font-semibold">Happy Clients</p>
+              <p className="text-gray-600 uppercase font-semibold">
+                Happy Clients
+              </p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-[#d4a574] mb-2">50+</div>
-              <p className="text-gray-600 uppercase font-semibold">Expert Stylists</p>
+              <p className="text-gray-600 uppercase font-semibold">
+                Expert Stylists
+              </p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-[#d4a574] mb-2">100%</div>
-              <p className="text-gray-600 uppercase font-semibold">Satisfaction</p>
+              <p className="text-gray-600 uppercase font-semibold">
+                Satisfaction
+              </p>
             </div>
           </div>
         </div>
