@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getImagePath } from "@/lib/utils";
 
 export default function Testimonial() {
   const testimonials = [
@@ -62,7 +63,7 @@ export default function Testimonial() {
                   "{testimonial.text}"
                 </p>
                 <Image
-                  src={`/${testimonial.img}`}
+                  src={getImagePath(`/${testimonial.img}`)}
                   alt={testimonial.name}
                   width={100}
                   height={100}

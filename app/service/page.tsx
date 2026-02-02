@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getImagePath } from "@/lib/utils";
 
 export default function Service() {
   const services = [
@@ -67,7 +68,7 @@ export default function Service() {
                 className="text-center p-8 border border-gray-200 hover:shadow-2xl transition-shadow"
               >
                 <Image
-                  src={`/${service.img}`}
+                  src={getImagePath(`/${service.img}`)}
                   alt={service.name}
                   width={100}
                   height={100}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getImagePath } from "@/lib/utils";
 
 export default function Team() {
   const teamMembers = [
@@ -36,7 +37,7 @@ export default function Team() {
             {teamMembers.map((member, index) => (
               <div key={index} className="relative group overflow-hidden">
                 <Image
-                  src={`/${member.img}`}
+                  src={getImagePath(`/${member.img}`)}
                   alt={member.name}
                   width={400}
                   height={500}

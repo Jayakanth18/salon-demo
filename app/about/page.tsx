@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getImagePath } from "@/lib/utils";
 
 export default function About() {
   return (
@@ -24,7 +25,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <Image
-                src="/about.jpg"
+                src={getImagePath("/about.jpg")}
                 alt="About"
                 width={600}
                 height={800}

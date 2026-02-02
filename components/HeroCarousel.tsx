@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { getImagePath } from "@/lib/utils";
 
 const images = [
-  "/hero-slider-1.jpg",
-  "/hero-slider-2.jpg",
-  "/hero-slider-3.jpg",
+  getImagePath("/hero-slider-1.jpg"),
+  getImagePath("/hero-slider-2.jpg"),
+  getImagePath("/hero-slider-3.jpg"),
 ];
 
 export default function HeroCarousel() {

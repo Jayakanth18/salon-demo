@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeroCarousel from "@/components/HeroCarousel";
+import { getImagePath } from "@/lib/utils";
 
 export default function Home() {
   return (
@@ -54,7 +55,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <Image
-                src="/about.jpg"
+                src={getImagePath("/about.jpg")}
                 alt="About"
                 width={600}
                 height={800}
@@ -125,7 +126,7 @@ export default function Home() {
                 className="text-center p-8 border-b border-r border-gray-200 hover:shadow-lg transition-shadow"
               >
                 <Image
-                  src={`/${service.img}`}
+                  src={getImagePath(`/${service.img}`)}
                   alt={service.name}
                   width={100}
                   height={100}
@@ -164,7 +165,7 @@ export default function Home() {
             ].map((member, index) => (
               <div key={index} className="relative group overflow-hidden">
                 <Image
-                  src={`/${member.img}`}
+                  src={getImagePath(`/${member.img}`)}
                   alt={member.name}
                   width={400}
                   height={500}
