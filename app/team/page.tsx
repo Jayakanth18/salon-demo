@@ -17,7 +17,7 @@ export default function Team() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">Our Team</h1>
           <nav className="flex justify-center gap-2 text-lg">
-            <Link href="/" className="text-[#d4a574] hover:underline">
+            <Link href="/" className="text-[#6DEAED] hover:underline">
               Home
             </Link>
             <span>/</span>
@@ -30,7 +30,7 @@ export default function Team() {
       <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Team Members
             </h1>
             <h1 className="text-4xl font-bold">Our Experienced Specialists</h1>
@@ -46,14 +46,14 @@ export default function Team() {
                   className="w-full"
                 />
                 <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
-                  <p className="text-[#d4a574] mb-2">{member.role}</p>
+                  <p className="text-[#6DEAED] mb-2">{member.role}</p>
                   <h4 className="text-white text-xl font-bold mb-4">
                     {member.name}
                   </h4>
                   <div className="flex gap-3">
                     <a
                       href="#"
-                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#d4a574] hover:border-[#d4a574] transition-colors"
+                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#6DEAED] hover:border-[#6DEAED] transition-colors"
                     >
                       <svg
                         className="w-4 h-4"
@@ -65,7 +65,7 @@ export default function Team() {
                     </a>
                     <a
                       href="#"
-                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#d4a574] hover:border-[#d4a574] transition-colors"
+                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#6DEAED] hover:border-[#6DEAED] transition-colors"
                     >
                       <svg
                         className="w-4 h-4"
@@ -77,7 +77,7 @@ export default function Team() {
                     </a>
                     <a
                       href="#"
-                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#d4a574] hover:border-[#d4a574] transition-colors"
+                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#6DEAED] hover:border-[#6DEAED] transition-colors"
                     >
                       <svg
                         className="w-4 h-4"
@@ -106,7 +106,7 @@ export default function Team() {
             <div className="text-center">
               <Link
                 href="/contact"
-                className="bg-[#d4a574] text-white px-8 py-4 inline-block hover:bg-[#c39563] transition-colors uppercase font-semibold"
+                className="bg-[#6DEAED] text-white px-8 py-4 inline-block hover:bg-[#5BD4D7] transition-colors uppercase font-semibold"
               >
                 Contact Us
               </Link>
