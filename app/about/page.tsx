@@ -10,7 +10,7 @@ export default function About() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">About Us</h1>
           <nav className="flex justify-center gap-2 text-lg">
-            <Link href="/" className="text-[#d4a574] hover:underline">
+            <Link href="/" className="text-[#6DEAED] hover:underline">
               Home
             </Link>
             <span>/</span>
@@ -32,7 +32,7 @@ export default function About() {
                 className="w-full mb-6"
               />
               <div className="flex items-center bg-gray-100 p-4">
-                <div className="bg-[#d4a574] w-24 h-24 flex items-center justify-center flex-shrink-0">
+                <div className="bg-[#6DEAED] w-24 h-24 flex items-center justify-center flex-shrink-0">
                   <svg
                     className="w-12 h-12"
                     fill="currentColor"
@@ -50,7 +50,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+              <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
                 About Us
               </h1>
               <h1 className="text-4xl font-bold mb-6">Why People Choose Us!</h1>
@@ -69,7 +69,7 @@ export default function About() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gray-100 text-center p-8">
                   <svg
-                    className="w-16 h-16 mx-auto text-[#d4a574] mb-4"
+                    className="w-16 h-16 mx-auto text-[#6DEAED] mb-4"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -82,7 +82,7 @@ export default function About() {
                 </div>
                 <div className="bg-gray-100 text-center p-8">
                   <svg
-                    className="w-16 h-16 mx-auto text-[#d4a574] mb-4"
+                    className="w-16 h-16 mx-auto text-[#6DEAED] mb-4"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -96,7 +96,7 @@ export default function About() {
               </div>
               <Link
                 href="/service"
-                className="bg-[#d4a574] text-white px-8 py-4 inline-block hover:bg-[#c39563] transition-colors uppercase font-semibold"
+                className="bg-[#6DEAED] text-white px-8 py-4 inline-block hover:bg-[#5BD4D7] transition-colors uppercase font-semibold"
               >
                 Our Services
               </Link>

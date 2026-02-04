@@ -11,7 +11,7 @@ export default function Navbar() {
       <nav className="container mx-auto flex items-center justify-between px-4">
         <Link
           href="/"
-          className="bg-[#d4a574] py-6 px-8 flex items-center gap-2 hover:bg-[#c39563] transition-colors"
+          className="bg-[#6DEAED] py-6 px-8 flex items-center gap-2 hover:bg-[#5BD4D7] transition-colors"
         >
           <svg
             className="w-6 h-6"
@@ -57,24 +57,24 @@ export default function Navbar() {
           <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6">
             <Link
               href="/"
-              className="text-gray-700 hover:text-[#d4a574] transition-colors"
+              className="text-gray-700 hover:text-[#6DEAED] transition-colors"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-gray-700 hover:text-[#d4a574] transition-colors"
+              className="text-gray-700 hover:text-[#6DEAED] transition-colors"
             >
               About
             </Link>
             <Link
               href="/service"
-              className="text-gray-700 hover:text-[#d4a574] transition-colors"
+              className="text-gray-700 hover:text-[#6DEAED] transition-colors"
             >
               Service
             </Link>
             <div className="relative group">
-              <button className="text-gray-700 hover:text-[#d4a574] transition-colors flex items-center gap-1 py-2">
+              <button className="text-gray-700 hover:text-[#6DEAED] transition-colors flex items-center gap-1 py-2">
                 Pages
                 <svg
                   className="w-4 h-4"
@@ -94,13 +94,13 @@ export default function Navbar() {
                 <div className="bg-gray-100 rounded shadow-lg">
                   <Link
                     href="/team"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#d4a574] hover:text-white transition-colors whitespace-nowrap"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#6DEAED] hover:text-white transition-colors whitespace-nowrap"
                   >
                     Our Team
                   </Link>
                   <Link
                     href="/testimonial"
-                    className="block px-4 py-2 text-gray-700 hover:bg-[#d4a574] hover:text-white transition-colors whitespace-nowrap"
+                    className="block px-4 py-2 text-gray-700 hover:bg-[#6DEAED] hover:text-white transition-colors whitespace-nowrap"
                   >
                     Testimonial
                   </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
             </div>
             <Link
               href="/contact"
-              className="text-gray-700 hover:text-[#d4a574] transition-colors"
+              className="text-gray-700 hover:text-[#6DEAED] transition-colors"
             >
               Contact
             </Link>

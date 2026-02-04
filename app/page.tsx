@@ -11,7 +11,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
             <div className="py-16 lg:py-24">
-              <h1 className="font-dancing-script text-[#d4a574] text-4xl mb-4">
+              <h1 className="font-dancing-script text-[#6DEAED] text-4xl mb-4">
                 Welcome
               </h1>
               <h1 className="text-5xl lg:text-6xl font-bold mb-8">
@@ -19,7 +19,7 @@ export default function Home() {
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-center gap-4">
-                  <div className="bg-[#d4a574] w-16 h-16 flex items-center justify-center flex-shrink-0">
+                  <div className="bg-[#6DEAED] w-16 h-16 flex items-center justify-center flex-shrink-0">
                     <svg
                       className="w-6 h-6"
                       fill="currentColor"
@@ -29,14 +29,14 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="text-[#d4a574] font-semibold mb-0">
+                    <h5 className="text-[#6DEAED] font-semibold mb-0">
                       Call Us
                     </h5>
                     <p className="text-xl mb-0">+123456789</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="bg-[#d4a574] w-16 h-16 flex items-center justify-center flex-shrink-0">
+                  <div className="bg-[#6DEAED] w-16 h-16 flex items-center justify-center flex-shrink-0">
                     <svg
                       className="w-6 h-6"
                       fill="currentColor"
@@ -46,7 +46,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="text-[#d4a574] font-semibold mb-0">
+                    <h5 className="text-[#6DEAED] font-semibold mb-0">
                       Mail Us
                     </h5>
                     <p className="text-xl mb-0">info@domain.com</p>
@@ -74,7 +74,7 @@ export default function Home() {
                 className="w-full mb-6"
               />
               <div className="flex items-center bg-gray-100 p-4">
-                <div className="bg-[#d4a574] w-24 h-24 flex items-center justify-center flex-shrink-0">
+                <div className="bg-[#6DEAED] w-24 h-24 flex items-center justify-center flex-shrink-0">
                   <svg
                     className="w-12 h-12"
                     fill="currentColor"
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+              <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
                 About Us
               </h1>
               <h1 className="text-4xl font-bold mb-6">Why People Choose Us!</h1>
@@ -105,7 +105,7 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gray-100 text-center p-8">
                   <svg
-                    className="w-16 h-16 mx-auto text-[#d4a574] mb-4"
+                    className="w-16 h-16 mx-auto text-[#6DEAED] mb-4"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
                 <div className="bg-gray-100 text-center p-8">
                   <svg
-                    className="w-16 h-16 mx-auto text-[#d4a574] mb-4"
+                    className="w-16 h-16 mx-auto text-[#6DEAED] mb-4"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -132,7 +132,7 @@ export default function Home() {
               </div>
               <Link
                 href="/about"
-                className="bg-[#d4a574] text-white px-8 py-4 inline-block hover:bg-[#c39563] transition-colors uppercase font-semibold"
+                className="bg-[#6DEAED] text-white px-8 py-4 inline-block hover:bg-[#5BD4D7] transition-colors uppercase font-semibold"
               >
                 Read More
               </Link>
@@ -145,7 +145,7 @@ export default function Home() {
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Our Services
             </h1>
             <h1 className="text-4xl font-bold">Explore Our Services</h1>
@@ -177,7 +177,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/service"
-                  className="text-sm bg-[#d4a574] text-white px-4 py-2 inline-flex items-center gap-2 hover:bg-[#c39563] transition-colors uppercase font-semibold"
+                  className="text-sm bg-[#6DEAED] text-white px-4 py-2 inline-flex items-center gap-2 hover:bg-[#5BD4D7] transition-colors uppercase font-semibold"
                 >
                   Read More
                   <svg
@@ -204,7 +204,7 @@ export default function Home() {
       <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Team Members
             </h1>
             <h1 className="text-4xl font-bold">Our Experienced Specialists</h1>
@@ -241,14 +241,14 @@ export default function Home() {
                   className="w-full"
                 />
                 <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
-                  <p className="text-[#d4a574] mb-2">{member.role}</p>
+                  <p className="text-[#6DEAED] mb-2">{member.role}</p>
                   <h4 className="text-white text-xl font-bold mb-4">
                     {member.name}
                   </h4>
                   <div className="flex gap-3">
                     <a
                       href="#"
-                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#d4a574] hover:border-[#d4a574] transition-colors"
+                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#6DEAED] hover:border-[#6DEAED] transition-colors"
                     >
                       <svg
                         className="w-4 h-4"
@@ -260,7 +260,7 @@ export default function Home() {
                     </a>
                     <a
                       href="#"
-                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#d4a574] hover:border-[#d4a574] transition-colors"
+                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#6DEAED] hover:border-[#6DEAED] transition-colors"
                     >
                       <svg
                         className="w-4 h-4"
@@ -272,7 +272,7 @@ export default function Home() {
                     </a>
                     <a
                       href="#"
-                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#d4a574] hover:border-[#d4a574] transition-colors"
+                      className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white border-2 border-gray-700 hover:bg-[#6DEAED] hover:border-[#6DEAED] transition-colors"
                     >
                       <svg
                         className="w-4 h-4"
@@ -294,7 +294,7 @@ export default function Home() {
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Testimonial
             </h1>
             <h1 className="text-4xl font-bold">What Clients Say!</h1>
@@ -303,7 +303,7 @@ export default function Home() {
             {[1, 2, 3].map((i) => (
               <div key={i} className="text-center bg-white p-8">
                 <svg
-                  className="w-12 h-12 mx-auto text-[#d4a574] mb-4"
+                  className="w-12 h-12 mx-auto text-[#6DEAED] mb-4"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >

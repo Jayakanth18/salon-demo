@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <Link href="/" className="inline-block mb-4">
-                <h1 className="text-4xl font-bold text-[#d4a574] flex items-center gap-2">
+                <h1 className="text-4xl font-bold text-[#6DEAED] flex items-center gap-2">
                   <svg
                     className="w-8 h-8"
                     fill="none"
@@ -43,7 +43,7 @@ export default function Footer() {
               <div className="flex gap-3 mt-4">
                 <a
                   href="#"
-                  className="w-8 h-8 flex items-center justify-center bg-[#d4a574] text-white rounded hover:bg-[#c39563] transition-colors"
+                  className="w-8 h-8 flex items-center justify-center bg-[#6DEAED] text-white rounded hover:bg-[#5BD4D7] transition-colors"
                 >
                   <svg
                     className="w-4 h-4"
@@ -55,7 +55,7 @@ export default function Footer() {
                 </a>
                 <a
                   href="#"
-                  className="w-8 h-8 flex items-center justify-center bg-[#d4a574] text-white rounded hover:bg-[#c39563] transition-colors"
+                  className="w-8 h-8 flex items-center justify-center bg-[#6DEAED] text-white rounded hover:bg-[#5BD4D7] transition-colors"
                 >
                   <svg
                     className="w-4 h-4"
@@ -67,7 +67,7 @@ export default function Footer() {
                 </a>
                 <a
                   href="#"
-                  className="w-8 h-8 flex items-center justify-center bg-[#d4a574] text-white rounded hover:bg-[#c39563] transition-colors"
+                  className="w-8 h-8 flex items-center justify-center bg-[#6DEAED] text-white rounded hover:bg-[#5BD4D7] transition-colors"
                 >
                   <svg
                     className="w-4 h-4"
@@ -79,7 +79,7 @@ export default function Footer() {
                 </a>
                 <a
                   href="#"
-                  className="w-8 h-8 flex items-center justify-center bg-[#d4a574] text-white rounded hover:bg-[#c39563] transition-colors"
+                  className="w-8 h-8 flex items-center justify-center bg-[#6DEAED] text-white rounded hover:bg-[#5BD4D7] transition-colors"
                 >
                   <svg
                     className="w-4 h-4"
@@ -94,7 +94,7 @@ export default function Footer() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div>
-                <h5 className="text-[#d4a574] font-semibold mb-4">
+                <h5 className="text-[#6DEAED] font-semibold mb-4">
                   Quick Links
                 </h5>
                 <div className="flex flex-col gap-2">
@@ -123,18 +123,18 @@ export default function Footer() {
               </div>
 
               <div>
-                <h5 className="text-[#d4a574] font-semibold mb-4">
+                <h5 className="text-[#6DEAED] font-semibold mb-4">
                   Newsletter
                 </h5>
                 <div className="relative mb-2">
                   <input
-                    className="w-full bg-gray-800 border-0 rounded px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#d4a574]"
+                    className="w-full bg-gray-800 border-0 rounded px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6DEAED]"
                     type="email"
                     placeholder="Enter Your Email"
                   />
                   <button
                     type="button"
-                    className="absolute right-2 top-1/2 -translate-y-1/2 text-[#d4a574] hover:text-[#c39563]"
+                    className="absolute right-2 top-1/2 -translate-y-1/2 text-[#6DEAED] hover:text-[#5BD4D7]"
                   >
                     <svg
                       className="w-5 h-5"
@@ -157,7 +157,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <div className="mb-3 md:mb-0">
               &copy;{" "}
-              <Link href="/" className="border-b hover:text-[#d4a574]">
+              <Link href="/" className="border-b hover:text-[#6DEAED]">
                 Salone 2026
               </Link>
               , All Right Reserved.

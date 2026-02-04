@@ -43,7 +43,7 @@ export default function Service() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">Our Services</h1>
           <nav className="flex justify-center gap-2 text-lg">
-            <Link href="/" className="text-[#d4a574] hover:underline">
+            <Link href="/" className="text-[#6DEAED] hover:underline">
               Home
             </Link>
             <span>/</span>
@@ -56,7 +56,7 @@ export default function Service() {
       <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Our Services
             </h1>
             <h1 className="text-4xl font-bold">Explore Our Services</h1>
@@ -78,7 +78,7 @@ export default function Service() {
                 <p className="mb-6 text-gray-600">{service.desc}</p>
                 <Link
                   href="/contact"
-                  className="text-sm bg-[#d4a574] text-white px-6 py-3 inline-flex items-center gap-2 hover:bg-[#c39563] transition-colors uppercase font-semibold"
+                  className="text-sm bg-[#6DEAED] text-white px-6 py-3 inline-flex items-center gap-2 hover:bg-[#5BD4D7] transition-colors uppercase font-semibold"
                 >
                   Book Now
                   <svg
@@ -105,14 +105,14 @@ export default function Service() {
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Why Choose Us
             </h1>
             <h1 className="text-4xl font-bold">We Provide Best Services</h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-[#d4a574] flex items-center justify-center rounded-full">
+              <div className="w-20 h-20 mx-auto mb-4 bg-[#6DEAED] flex items-center justify-center rounded-full">
                 <svg
                   className="w-10 h-10 text-white"
                   fill="currentColor"
@@ -128,7 +128,7 @@ export default function Service() {
               </p>
             </div>
             <div className="bg-white p-8 text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-[#d4a574] flex items-center justify-center rounded-full">
+              <div className="w-20 h-20 mx-auto mb-4 bg-[#6DEAED] flex items-center justify-center rounded-full">
                 <svg
                   className="w-10 h-10 text-white"
                   fill="currentColor"
@@ -144,7 +144,7 @@ export default function Service() {
               </p>
             </div>
             <div className="bg-white p-8 text-center">
-              <div className="w-20 h-20 mx-auto mb-4 bg-[#d4a574] flex items-center justify-center rounded-full">
+              <div className="w-20 h-20 mx-auto mb-4 bg-[#6DEAED] flex items-center justify-center rounded-full">
                 <svg
                   className="w-10 h-10 text-white"
                   fill="currentColor"

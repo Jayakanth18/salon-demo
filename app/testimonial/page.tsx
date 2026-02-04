@@ -37,7 +37,7 @@ export default function Testimonial() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-4">Testimonial</h1>
           <nav className="flex justify-center gap-2 text-lg">
-            <Link href="/" className="text-[#d4a574] hover:underline">
+            <Link href="/" className="text-[#6DEAED] hover:underline">
               Home
             </Link>
             <span>/</span>
@@ -50,7 +50,7 @@ export default function Testimonial() {
       <div className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="font-dancing-script text-[#d4a574] text-4xl">
+            <h1 className="font-dancing-script text-[#6DEAED] text-4xl">
               Testimonial
             </h1>
             <h1 className="text-4xl font-bold">What Clients Say!</h1>
@@ -62,7 +62,7 @@ export default function Testimonial() {
                 className="text-center bg-gray-50 p-8 hover:shadow-lg transition-shadow"
               >
                 <svg
-                  className="w-12 h-12 mx-auto text-[#d4a574] mb-4"
+                  className="w-12 h-12 mx-auto text-[#6DEAED] mb-4"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -87,7 +87,7 @@ export default function Testimonial() {
       </div>
 
       {/* Call to Action */}
-      <div className="bg-[#d4a574] py-16">
+      <div className="bg-[#6DEAED] py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-white mb-4">
             Ready to Experience Our Services?
@@ -98,7 +98,7 @@ export default function Testimonial() {
           </p>
           <Link
             href="/contact"
-            className="bg-white text-[#d4a574] px-8 py-4 inline-block hover:bg-gray-100 transition-colors uppercase font-semibold"
+            className="bg-white text-[#6DEAED] px-8 py-4 inline-block hover:bg-gray-100 transition-colors uppercase font-semibold"
           >
             Book An Appointment
           </Link>
@@ -110,25 +110,25 @@ export default function Testimonial() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#d4a574] mb-2">25+</div>
+              <div className="text-5xl font-bold text-[#6DEAED] mb-2">25+</div>
               <p className="text-gray-600 uppercase font-semibold">
                 Years Experience
               </p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#d4a574] mb-2">999+</div>
+              <div className="text-5xl font-bold text-[#6DEAED] mb-2">999+</div>
               <p className="text-gray-600 uppercase font-semibold">
                 Happy Clients
               </p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#d4a574] mb-2">50+</div>
+              <div className="text-5xl font-bold text-[#6DEAED] mb-2">50+</div>
               <p className="text-gray-600 uppercase font-semibold">
                 Expert Stylists
               </p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-[#d4a574] mb-2">100%</div>
+              <div className="text-5xl font-bold text-[#6DEAED] mb-2">100%</div>
               <p className="text-gray-600 uppercase font-semibold">
                 Satisfaction
               </p>
